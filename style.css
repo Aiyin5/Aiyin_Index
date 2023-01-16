@@ -175,6 +175,29 @@ svg{
   font-weight: 800;
 }
 
+@media screen and (max-width:768px){
+  .navbar{
+    position: fixed;
+    left: 0;
+    width: 60%;
+    height: 64px;
+    top: 0;
+    z-index: 999;
+    transition: .3s linear;
+  }
+  .navbar-menu a{
+    color: #666;
+    font-size: 16px;
+    font-weight: 100;
+    margin-left: 10px;
+    transition: .2s linear;
+    text-decoration:none;
+  }
+  .navbar-menu a:hover{
+    font-weight: 200;
+  }
+}
+
 .intro-text{
   display: flex;
   justify-content: center;
@@ -502,6 +525,9 @@ svg{
     font-size: 32px;
   }
   .hero-main-description{
+    font-size: 18px;
+  }
+  .hero-main-description2{
     font-size: 18px;
   }
   .hero-second-subheading{
